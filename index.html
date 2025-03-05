@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Peminjaman Gymnasium</title>
+</head>
+<body>
+    <header>
+        <h1>Website Peminjaman Gymnasium</h1>
+    </header>
+    <main>
+        <section id="info">
+            <h2>Informasi Gymnasium</h2>
+            <p>Detail tentang gymnasium.</p>
+        </section>
+        <section id="peminjaman">
+            <h2>Form Peminjaman</h2>
+            <form id="formPeminjaman">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+                <label for="tanggal">Tanggal Peminjaman:</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+                <button type="submit">Pinjam</button>
+            </form>
+        </section>
+        <section id="daftarPeminjaman">
+            <h2>Daftar Peminjaman</h2>
+            <div id="daftar"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
